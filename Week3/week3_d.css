@@ -1,0 +1,60 @@
+/* week3_part a exercises */
+       
+header {
+    background-color: blue;
+    color: white;
+   
+    width: 48%;  
+    
+    }
+    nav {
+    background-color: yellow;
+   overflow: auto;
+   width: 52%;  
+      
+    }
+
+    nav a {
+       display: block;
+       float: left;
+       width: 180px; 
+       padding: 1em; 
+       text-align: center;
+      
+        }
+     div{
+            overflow: auto;
+        }
+   
+     section header, nav{
+            display: inline;
+            float: left;
+        }
+        section{
+            overflow: auto;
+            
+        }
+   
+     div main, aside{
+            display: inline;
+            float: left;
+        }
+
+    main  {
+    background-color: darkblue;
+    padding: 1em;
+    color: white;
+    width: 60%;  
+    }
+
+    aside {
+    background-color: lightgreen;
+    padding: 1em;
+    width: 34%;  
+    }
+    
+    footer {
+    background-color: darkgreen;
+    padding: 1em;
+
+    }
