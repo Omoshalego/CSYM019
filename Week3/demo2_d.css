@@ -14,11 +14,20 @@ header {
     grid-area: header;
     text-align: center;
     }
-nav {
-    background-color: yellow;
-    grid-area: nav;
-   
-    }
+    nav {
+        background-color: yellow;
+        grid-area: nav;
+        text-align: center;
+       
+       
+        }
+        nav a {
+            display: block;
+            float: left;
+            width: 180px; 
+            padding: 1em; 
+            text-align: center;
+             }
 main {
     background-color: darkblue;
     color: white;

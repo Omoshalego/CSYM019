@@ -18,7 +18,7 @@ header {
 nav {
     background-color: yellow;
     grid-area: nav;
-    border: 5px;
+   
    
     }
     nav a {
