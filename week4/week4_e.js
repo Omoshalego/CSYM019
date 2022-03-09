@@ -11,24 +11,40 @@
         //  so that the text is changed when you mouse over the element and it reverts to the 
         //  original text when the mouse exits the elemen
 
-function myClickFunction() {
+// function myClickFunction() {
+//     var element = document.getElementById('heading');
+//     element.firstChild.nodeValue = 'New Heading';
+//    }
+//    function myLoadFunction() {
+//     var element = document.getElementById('heading');
+//     element.addEventListener('click', myClickFunction);
+//    }
+//    document.addEventListener('DOMContentLoaded', myLoadFunction);
+   
+
+//    function myClickFunction2() {
+    
+//      var element = document.getElementById('paragraph');
+//      element.firstChild.nodeValue = 'New paragraph text';
+//    }
+//    function myLoadFunction2() {
+//     var element = document.getElementById('paragraph');
+//     element.addEventListener('click', myClickFunction2);
+//    }
+//    document.addEventListener('DOMContentLoaded', myLoadFunction2);
+
+   function updateH1() {
     var element = document.getElementById('heading');
     element.firstChild.nodeValue = 'New Heading';
    }
+   function updateParagraph() {
+    var element = document.getElementById('paragraph');
+    element.firstChild.nodeValue = 'New paragraph contents';
+   }
    function myLoadFunction() {
     var element = document.getElementById('heading');
-    element.addEventListener('click', myClickFunction);
+    element.addEventListener('click', updateH1);
+    var element = document.getElementById('paragraph');
+    element.addEventListener('click', updateParagraph);
    }
    document.addEventListener('DOMContentLoaded', myLoadFunction);
-   
-
-   function myClickFunction2() {
-    
-     var element = document.getElementById('paragraph');
-     element.firstChild.nodeValue = 'New paragraph text';
-   }
-   function myLoadFunction2() {
-    var element = document.getElementById('paragraph');
-    element.addEventListener('click', myClickFunction2);
-   }
-   document.addEventListener('DOMContentLoaded', myLoadFunction2);
