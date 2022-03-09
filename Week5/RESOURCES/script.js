@@ -9,13 +9,21 @@
 //    Note: You will need this for the rest of today's exercise
   
 function myClickFunction(){
- alert('The button was pressed !')
+    var element = document.getElementById('circle');
+     element.style.backgroundColor = 'green';
 
+ alert('The button was pressed and it is green!');
+ 
    }
 
 function myLoadFunction() {
     var element = document.getElementById('circle');
+   
     element.addEventListener('click', myClickFunction);
 
    }
    document.addEventListener('DOMContentLoaded', myLoadFunction);
+
+
+
+   
