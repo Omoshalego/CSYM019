@@ -19,7 +19,27 @@ body {
 	line-height: 200px; 
 	box-shadow: 5px 5px 5px #333; 
 	text-shadow: 2px 2px 0px #000; 
-	color: #fff;
+	color: rgb(107, 255, 8);
+	opacity: 20%;
+}
+
+
+#circleB {
+	border-radius: 100%; 
+	width: 200px; 
+	height: 200px; 
+	background-color: rgb(0, 248, 136);  
+	
+	position: absolute; 
+	top: 10%; 
+	left: 50%; 
+	font-size: 2em; 
+	cursor: pointer; 
+	text-align: center; 
+	line-height: 200px; 
+	box-shadow: 5px 5px 5px #333; 
+	text-shadow: 2px 2px 0px #000; 
+	color: rgb(250, 0, 0);
 	opacity: 20%;
 }
 
