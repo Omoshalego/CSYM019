@@ -7,7 +7,8 @@
 
 function myClickFunction(){
     var element = document.getElementById('circle');
-    element.firstChild.nodeValue = 'Am clicked';
+    element.style.backgroundColor = 'blue';
+     element.firstChild.nodeValue = 'You click me';
      element.style.opacity = 1;
    }
 

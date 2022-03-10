@@ -9,10 +9,9 @@ function myClickFunction(){
     var element = document.getElementById('circle');
     element.firstChild.nodeValue = 'Am clicked';
     var circleOpacity = parseFloat(element.style.opacity);
-   // element.style.opacity = circleOpacity - 0.01;
+   // element.style.opacity = circleOpacity - 0.1;
     element.style.opacity = circleOpacity + 0.01;
-    //setInterval(myClickFunction, 1000);
-    setInterval(myClickFunction, 10000);
+    setInterval(myClickFunction, 1000);
    }
 
 function myLoadFunction() {

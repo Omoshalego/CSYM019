@@ -20,8 +20,45 @@ body {
 	box-shadow: 5px 5px 5px #333; 
 	text-shadow: 2px 2px 0px #000; 
 	color: #fff;
-	opacity: 20%;
+	opacity: 100%;
 }
+
+#circleB {
+	border-radius: 100%; 
+	width: 200px; 
+	height: 200px; 
+	background-color: rgb(255, 230, 0);  
+	position: absolute; 
+	top: 60%; 
+	left: 20%; 
+	font-size: 2em; 
+	cursor: pointer; 
+	text-align: center; 
+	line-height: 200px; 
+	box-shadow: 5px 5px 5px #333; 
+	text-shadow: 2px 2px 0px #000; 
+	color: #fff;
+	opacity: 100%;
+}
+
+#circleC {
+	border-radius: 100%; 
+	width: 200px; 
+	height: 200px; 
+	background-color: rgb(0, 72, 255);  
+	position: absolute; 
+	top: 20%; 
+	left: 10%; 
+	font-size: 2em; 
+	cursor: pointer; 
+	text-align: center; 
+	line-height: 200px; 
+	box-shadow: 5px 5px 5px #333; 
+	text-shadow: 2px 2px 0px #000; 
+	color: #fff;
+	opacity: 100%;
+}
+
 
 
 .transparent {opacity: 0.5;}

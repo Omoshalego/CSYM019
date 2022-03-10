@@ -4,6 +4,7 @@
 function myClickFunction(){
     var element = document.getElementById('circle');
      element.style.backgroundColor = 'blue';
+     element.firstChild.nodeValue = 'You click me';
   
  
    }
