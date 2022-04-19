@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     $("#movies").load(movies.html);
     $("#movies").change(function(){
         let movie = $(this).val();
@@ -17,19 +16,19 @@ $(document).ready(function(){
                  $.each(response,function(){
                      $("#moviesinfo").html("");
                      $("#movieinfo").append(response.overview);
+                     
                      if($("#movieinfo").attr("hidden")){
-                         $("#movieinfo").show();
-
+                        $("#movieinfo").show();
                      }
                      $("#movieinfo").css({
                          "border-color": "#CIEOFF",
                          "border-weight":"1px",
                          "border-style":"solid",
+
                          "margin-top":"1rem",
                          "width":"50%",
                          "padding":"0.5rem"
                       } );
-                      
                  });
              },
              error:function(xhr,error){
